@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:5000/api';
+const BASE = 'https://backendkavya-2.onrender.com/api';
 
 function authHeaders() {
   const token = localStorage.getItem('token');
